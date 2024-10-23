@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <script src="script.js"></script>
+    <style>
+        #content{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 500px;
+        }
+        button{
+            width: 40%;
+            height: 40px;
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <button type="button" onclick="kmtomiles()">Convert KM to MILES</button>
+        <div id="miles"></div>
+        <button type="button" onclick="kgtopounds()">Convert KG to POUNDS</button>
+        <div id="pounds"></div>
+        <button type="button" onclick="mtocm()">Convert METRES to CMs</button>
+        <div id="cm"></div>
+        <button type="button" onclick="SI()">Calculate Simple Interest</button>
+        <div id="si"></div>
+    </div>
+</body>
+</html>
