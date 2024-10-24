@@ -1,0 +1,69 @@
+.landing-container {
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing-title {
+    font-size: 5.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.landing-subtitle {
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+
+.landing-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.login-button {
+    width: 300px;
+    padding: 25px 20px;
+    font-size: 1.4rem;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.login-button {
+    background-color: transparent;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.signup-button {
+    padding: 25px 20px;
+    font-size: 1.4rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.signup-button {
+    width: 300px;
+    background-color: transparent;
+    color: white;
+}
+
+.signup-button:hover {
+    background-color: red;
+    color: white;
+}
